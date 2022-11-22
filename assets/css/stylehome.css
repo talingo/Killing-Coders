@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ANIMACIÓN LLUVIA HOME PAGE */
 body {
     
     margin: 0;
@@ -40,4 +46,7 @@ body {
     24%{opacity: 0;}
     104%{opacity: 0;}
 }
-@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap')
+
+/* FIN ANIMACIÓN LLUVIA */
+
+
