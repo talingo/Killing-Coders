@@ -15,9 +15,9 @@
         background-size: cover;
     }
 
-    section img:nth-of-type(1) {
+    /* section img:nth-of-type(1) {
         width: ;
-    }
+    } */
 
     section img:nth-of-type(2) {
         width: 40vw;
