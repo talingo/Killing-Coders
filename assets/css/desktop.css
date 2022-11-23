@@ -27,16 +27,18 @@ section {
     grid-row: 2 / 4;
     display: flex;
     justify-self: center;
-    margin-top: -150px;
-    max-height: 750px;
+    margin-top: -92px;
+    max-height: 670px;
     width: 500px;
 }
 .doll {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    display: flow;
+    margin-top: -61px;
+    margin-left: -38px;
+    /* display: float;
     justify-self: left;
-    align-self: flex-start;
+    align-self: flex-start; */
     height: 250px;
 }
 
