@@ -1,6 +1,5 @@
 body {
   background-image: url(/images/horrorback.jpg);
-  background-size: inherit;
   background-repeat: no-repeat;
 } 
 header {
@@ -29,7 +28,7 @@ section {
     display: flex;
     justify-self: center;
     margin-top: -150px;
-    height: 750px;
+    max-height: 750px;
     width: 500px;
 }
 .doll {
