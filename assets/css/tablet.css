@@ -1,0 +1,9 @@
+@media only screen and (max-width: 1007px) and (min-width:641px) {
+    body{
+        background-image: url(/images/horrorback.jpg);
+    }
+@media (max-width: 1007px) and (orientation : portrait){
+
+
+}
+}
