@@ -5,7 +5,8 @@ body {
 header {
   display: flex;
   justify-content: center;
-  margin: 150px auto auto;
+  align-content: center;
+  margin: 100px auto auto;
 }
 header img {
   width: 700px;
@@ -36,9 +37,6 @@ section {
     grid-row: 1 / 2;
     margin-top: -61px;
     margin-left: -38px;
-    /* display: float;
-    justify-self: left;
-    align-self: flex-start; */
     height: 250px;
 }
 .btn:hover {
