@@ -34,6 +34,9 @@ main {
   /* grid-column: 1 / 4;
   grid-row: 2 / 3; */
 }
+li {
+    font-size: 30px;
+}
 
 input {
     background-color: rgb(148, 20, 20);
@@ -48,7 +51,6 @@ button {
 }
 
 main img {
-    grid-column: 2 / 3;
     width: 250px;
     transform: scaleX(-1);
 }
