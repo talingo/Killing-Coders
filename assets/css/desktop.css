@@ -1,0 +1,102 @@
+* {
+  cursor: url(/images/oth702.cur), auto;
+}
+body {
+  background-image: url(/images/horrorback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/*---------------CONTAINER DIV------------------*/
+
+div {
+  display: grid;
+  grid-template-columns: 15% auto 15%;
+  grid-template-rows: 15% auto;
+  line-height: 0;
+}
+
+header {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 75px auto auto;
+}
+header img {
+  width: 70vw;
+}
+section {
+  height: fit-content;
+  margin-top: 5%;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*------------IMAGEN BOTON--------------*/
+
+a img {
+  width: 35vw;
+  position: relative;
+}
+
+/*------------IMAGEN SANGRE--------------*/
+
+#blood {
+    width: 35vw;
+    margin-top: -4%;
+    position: relative;
+    height: 720px;
+    
+}
+
+/*------------IMAGEN MUÑECO--------------*/
+
+#doll {
+    /* display: none; */
+    height: 15vw;
+    position: absolute;
+    margin-top: -11%;
+    margin-left: 15%;
+}
+
+@media screen and (max-width: 770px) {
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    row-gap: 50px;
+  }
+  a img {
+    margin: 0;
+  }
+  #blood {
+    margin-top: -8%;
+    height: auto;
+  }
+  #doll {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  a img {
+    margin: 0;
+  }
+  #blood {
+    height: auto;
+  }
+  #doll {
+    display: none;
+  }
+  
+}
