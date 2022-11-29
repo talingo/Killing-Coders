@@ -1,3 +1,6 @@
+* {
+  cursor: url(/images/oth702.cur), auto;
+}
 body {
   background-image: url(/images/horrorback.jpg);
   background-repeat: no-repeat;
