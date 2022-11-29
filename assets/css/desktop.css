@@ -28,7 +28,7 @@ header img {
 }
 section {
   height: fit-content;
-  margin-top: 15%;
+  margin-top: 5%;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   display: flex;
@@ -39,14 +39,14 @@ section {
 
 /*------------IMAGEN BOTON--------------*/
 
-section img:nth-of-type(1) {
+a img {
   width: 35vw;
   position: relative;
 }
 
 /*------------IMAGEN SANGRE--------------*/
 
-section img:nth-of-type(2) {
+#blood {
     width: 35vw;
     margin-top: -4%;
     position: relative;
@@ -56,13 +56,12 @@ section img:nth-of-type(2) {
 
 /*------------IMAGEN MUÑECO--------------*/
 
-section img:nth-of-type(3) {
-    display: none;
+#doll {
+    /* display: none; */
     height: 15vw;
-    position: relative;
-}
-section img:nth-of-type(1):hover {
-  cursor: pointer;
+    position: absolute;
+    margin-top: -11%;
+    margin-left: 15%;
 }
 
 @media screen and (max-width: 770px) {
@@ -74,26 +73,27 @@ section img:nth-of-type(1):hover {
     margin-top: 100px;
     row-gap: 50px;
   }
-  section img:nth-of-type(1) {
+  a img {
     margin: 0;
   }
-  section img:nth-of-type(2) {
+  #blood {
     margin-top: -8%;
     height: auto;
   }
-  /* section img:nth-of-type(3) {
-
-  } */
+  #doll {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 460px) {
-  section img:nth-of-type(1) {
+  a img {
     margin: 0;
   }
-  section img:nth-of-type(2) {
+  #blood {
     height: auto;
   }
-  /* section img:nth-of-type(3) {
-
-  } */
+  #doll {
+    display: none;
+  }
+  
 }
