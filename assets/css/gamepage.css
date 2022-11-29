@@ -36,6 +36,7 @@ main {
 }
 li {
     font-size: 30px;
+    list-style-image: url(/images/skull2.png);
 }
 
 input {
