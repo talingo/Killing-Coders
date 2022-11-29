@@ -36,7 +36,7 @@ main {
 }
 li {
     font-size: 30px;
-    list-style-image: url(/images/skull2.png);
+    list-style-image: url(/images/skull2\ \(1\).png) ;
 }
 
 input {
@@ -52,8 +52,7 @@ button {
 }
 
 main img {
-    width: 50vw;
-    transform: scaleX(-1);
+    height: 20vw;
 }
 /*
 main {
