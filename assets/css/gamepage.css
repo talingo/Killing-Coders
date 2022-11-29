@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Yatra+One&display=swap");
+
+body {
+  background-image: url(/images/background\ _gamepage.jpg);
+  font-family: 'Yatra One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  color: white;
+}
+
+/* div {
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  grid-template-rows: 35% auto;
+} */
+
+header {
+  /* grid-column: 2 / 3;
+  grid-row: 1 / 2; */
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 50px auto auto;
+}
+header img {
+  width: 50vw;
+}
+
+main {
+    display: inline-flex;
+    gap: 50px;
+  /* grid-column: 1 / 4;
+  grid-row: 2 / 3; */
+}
+li {
+    font-size: 30px;
+    list-style-image: url(/images/skull2.png);
+}
+
+input {
+    background-color: rgb(148, 20, 20);
+    border: 0;
+    border-radius: 10%;
+    width: 100px;
+}
+button {
+    border-radius: 50%;
+    background-color:rgb(148, 20, 20);
+    border: 0;
+}
+
+main img {
+    width: 50vw;
+    transform: scaleX(-1);
+}
+/*
+main {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+main img {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    width: 100px;
+} */
