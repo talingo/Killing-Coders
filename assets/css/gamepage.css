@@ -34,9 +34,13 @@ main {
   /* grid-column: 1 / 4;
   grid-row: 2 / 3; */
 }
+
+#input {
+
+}
 li {
     font-size: 30px;
-    list-style-image: url(/images/skull2\ \(1\).png) ;
+    list-style-image: url(/images/skull2\ \(1\).png);
 }
 
 input {
@@ -52,7 +56,8 @@ button {
 }
 
 main img {
-    height: 20vw;
+    height: 10vw;
+    transform: scaleX(-1);
 }
 /*
 main {
