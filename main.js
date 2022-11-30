@@ -8,7 +8,9 @@
 
 let btn = document.querySelector('#addName');
 let inputnamebox = document.querySelector("input[type='text']");
-let arrayNombres = [];
+
+
+
 
 function createList() {
     
@@ -25,4 +27,17 @@ function createList() {
     
     }
 
-  
+    let arrayNombres = [];
+    console.log(arrayNombres);
+
+    function  selectRandomCoder (arrayNombres) {
+    
+        console.log(arrayNombres)
+        const long = arrayNombres.length;
+        console.log(long);
+        const rnd = Math.floor(Math.random() * long )
+        return array[rnd];
+        console.log(rnd);
+    }
+
+ 
