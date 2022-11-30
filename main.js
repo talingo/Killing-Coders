@@ -12,7 +12,10 @@ let inputnamebox = document.querySelector("input[type='text']");
 
 
 
-function createList() {
+
+function createList() { 
+
+    
     
     const node = document.createElement("li");
     
@@ -21,16 +24,24 @@ function createList() {
     document.getElementById("myList").appendChild(node);
     
     
-    arrayNombres.push(inputnamebox.value);
+    // arrayNombres.push(inputnamebox.value);
     inputnamebox.value="";
-    console.log(arrayNombres);
+ 
     
     }
 
-    let arrayNombres = [];
-    console.log(arrayNombres);
+    const listCoders = document.getElementsByTagName('li');
 
-    function  selectRandomCoder (arrayNombres) {
+    const createArray = listCoders.map(element => {
+        const arrayNombres = [];
+        arrayNombres.push(element);
+        return arrayNombres;
+        console.log(arrayNombres)
+    });
+   
+  
+
+    function  selectRandomCoder() {
     
         console.log(arrayNombres)
         const long = arrayNombres.length;
