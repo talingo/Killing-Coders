@@ -4,13 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="/assets/css/stylehomerain.css">
+    <link rel="stylesheet" href="/assets/css/mobilevertical.css"> -->
+    <!-- <link rel="stylesheet" href="/assets/css/foganimation.css"> -->
     <link rel="stylesheet" href="/assets/css/desktop.css" />
-
     <title>Killing Coders</title>
 
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
+    <audio id="rain-background" controls preload="auto">
+      <source src="sound-effects/rain.mp3" type="audio/mp3">
+    </audio>
+    
+    <div class="anim-body">
     <div>
       <header>
         <img src="images/titlekiller.png" alt="KILLING CODERS" title="KILLING CODERS"/>
@@ -21,8 +28,11 @@
         <img id="doll" src="images/muneco.png" alt="doll" alt="doll" />
       </section>
     </div>
+</div>
   </body>
   <script defer src="/main.js"></script>
+  
+  <script src="sounds.js"></script>
 </html>
 
 <!-- <div class="rain-animation">    
@@ -30,3 +40,4 @@
             <input class="music2" type="image" src="/images/png-clipart-computer-icons-sound-icon-volume-sound-miscellaneous-angle-thumbnail.png" onclick="toggleAudio()">
             <audio id="ambient" src="/sound-effects/sacrificed!.mp3"></audio>
         </div> -->
+
